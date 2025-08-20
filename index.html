@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo de Filmes</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>🎬 Catálogo de Filmes</h1>
+    <p>Explore por categoria e idade recomendada</p>
+  </header>
+
+  <nav class="categorias">
+    <button onclick="filtrar('todos')">Todos</button>
+    <button onclick="filtrar('acao')">Ação</button>
+    <button onclick="filtrar('comedia')">Comédia</button>
+    <button onclick="filtrar('infantil')">Infantil</button>
+    <button onclick="filtrar('drama')">Drama</button>
+  </nav>
+
+  <main class="catalogo">
+    <div class="filme-card acao idade-16">
+      <iframe src="https://www.youtube.com/embed/EXAMPLE1" allowfullscreen></iframe>
+      <h2>Missão Explosiva</h2>
+      <p>Categoria: Ação</p>
+      <p>Idade: 16+</p>
+    </div>
+
+    <div class="filme-card comedia idade-12">
+      <iframe src="https://www.youtube.com/embed/EXAMPLE2" allowfullscreen></iframe>
+      <h2>Rindo à Toa</h2>
+      <p>Categoria: Comédia</p>
+      <p>Idade: 12+</p>
+    </div>
+
+    <div class="filme-card infantil idade-livre">
+      <iframe src="https://www.youtube.com/embed/EXAMPLE3" allowfullscreen></iframe>
+      <h2>Aventuras no Jardim</h2>
+      <p>Categoria: Infantil</p>
+      <p>Idade: Livre</p>
+    </div>
+
+    <div class="filme-card drama idade-14">
+      <iframe src="https://www.youtube.com/embed/EXAMPLE4" allowfullscreen></iframe>
+      <h2>Entre Silêncios</h2>
+      <p>Categoria: Drama</p>
+      <p>Idade: 14+</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 — Criado por Pablo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
